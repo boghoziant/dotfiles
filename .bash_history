@@ -1,44 +1,3 @@
-ls
-cd lib
-ls
-cd
-cd /usr/bin
-cd
-cd /snap/firefox
-ls
-ls *
-ls
-cd
-cd /snap/firefox
-ls
-ls *
-ls
-cd 2517
-ls
-ls *
-cd usr/lib/
-ls
-cd firefox/
-ls
-gnome-control-center
-nvim --version
-sudo add-apt-repository ppa:neovim-ppa/unstable
-sudo apt-get update
-sudo apt-get install neovim
-ls
-quit
-exit
-apt show gammastep
-sudo apt install gammastep
-gammastep -h
-gammastep -l list
-gammastep -l 34:118
-bg
-gammastep -p
-gammastep -x
-gammastep -x
-ps -a
-ps -A
 ps -A | grep gammastep
 gammastep -l 34:118
 bg
@@ -498,3 +457,44 @@ alias
 vi .bashrc
 source ~/.bashrc
 alias
+alias
+echo $HOME
+config status
+git status
+config add .bashrc
+config commit -m "Add bashrc"
+git status
+config status
+config status -u
+clear
+ls .config/
+ls .cfg
+config add .vimrc
+config add .bashrc
+config status
+ls .cfg/config
+ls .cfg
+cd .cfg
+ls *
+cd ..
+ls
+echo $HOME
+ls 
+vi .config/nvim/
+config add nvim
+config add .config/nvim
+config status
+config add .config/sway/
+config status
+ls
+vi .vim
+ls .vim
+config add .vim
+ls *
+ls -a
+config add .bash_history
+ls repos
+ls .config
+config commit -m "Add all configs"
+config status
+config remote add origin https://github.com/boghoziant/dotfiles.git
